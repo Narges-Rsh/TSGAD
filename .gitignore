@@ -1,0 +1,13 @@
+data/
+PoseWatch_results_CPCC/
+results_CPCC4_traj/
+results_pred_tokenizations/
+results_pred_tokenizations/
+results_recon_CPCC/
+results_recon_tokenizations/
+test/
+trajectory_results/
+VAE_results_CPCC/
+.vscode/
+__pycache__/
+results/
