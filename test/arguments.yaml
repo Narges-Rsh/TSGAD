@@ -1,0 +1,66 @@
+act: relu
+batch_size: 256
+ckpt_dir: data/exp_dir/ABC/Nov12_1308
+conv: false
+conv_oper: sagc
+data_dir: data/
+dataset: ABC
+device: cuda:3
+dropout: 0.3
+encoder_decoder_type: convolutional
+epochs: 2
+exclude_mutinfo: false
+exp_dir: data/exp_dir
+global_pose_segs: true
+graph: true
+headless: false
+log_freq: 200
+mask_root: /home/nrashvan/TSGAD_3/TCVAE_modified-normal_dist/data/ABC/gt/test_frame_mask
+model_alpha: 1
+model_beta: 1
+model_beta_anneal: false
+model_ckpt_dir: null
+model_confidence: false
+model_dist: normal
+model_gamma: 1
+model_lambda: 0
+model_lambda_anneal: false
+model_latent_dim: 10
+model_lr: 5.0e-06
+model_lr_decay: 0.99
+model_optimizer: adamx
+model_save_dir: /home/nrashvan/TSGAD_3/TCVAE_modified-normal_dist/test
+model_weight_decay: 5.0e-05
+mse: false
+mss: true
+norm_scale: 0
+num_transform: 2
+num_workers: 32
+only_test: false
+plot_vid: 0
+pose_path:
+  test: data/ABC/pose/test/
+  train: data/ABC/pose/train/
+  train_abnormal: null
+pose_path_test: null
+pose_path_train: null
+pose_path_train_abnormal: null
+prop_norm_scale: 1
+save: test1
+save_scores: false
+sched: tri
+score_save_dir: ./results/scores
+seed: 6398882965742308528
+seg_len: 24
+seg_stride: 12
+specific_clip: null
+tcvae: true
+train_seg_conf_th: 0.0
+verbose: 1
+vid_path:
+  test: data/ABC/test/frames/
+  train: data/ABC/train/images/
+vid_path_test: null
+vid_path_train: null
+vid_res: null
+visdom: false
